@@ -1,0 +1,187 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HeaderList a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.HeaderList a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 65px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.HeaderList li{
+    display: inline-block;
+    margin-top: 23px;
+    width: 220px;
+    color: white;
+    margin-left: -25px;
+    font-size: 17px;
+}
+
+.HeaderList li:hover{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.DetailBody{
+    margin: auto;
+    width: 650px;
+}
+
+.DetailBodyTitle{
+    margin-bottom: 50px;
+}
+
+.OverallPanel{
+    border-bottom: 1px solid black;
+}
+
+.OverallPanel div{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.DetailPage{
+    width: 620px;
+    margin: auto;
+}
+
+.ElementList {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.ElementName{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.SubElementList {
+    list-style: none;
+}
+
+.SubElementName{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ProsList{
+    list-style: disc;
+    margin-bottom: 15px;
+}
+
+.ConsList{
+    list-style: circle;
+}
+
+.OverallScore{
+    background-color: black;
+    color: white;
+}
+
+.OverallScore{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: justify;
+    line-height: -10px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.Score{
+    float: left;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.Blurb{
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 30px;
+}
+
+.CommentSection{
+    clear: left;
+    margin-top: 50px;
+}
+
+.CommentInput{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 203px;
+}
+
+.CommentInput textarea{
+    width: 610px;
+    height: 100px;
+    background-color: lightgray;
+    resize: none;
+}
+
+.CommentInput button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    width: 75px;
+    float: right;
+    
+}
+
+.CommentInput button:hover{
+    background-color: lightgray;
+    color: black;
+    border: none;
+}
+
+.CommentLayout{
+    clear: right;
+    width: 600px;
+    margin: auto;
+}
+
+.Commenter{
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Time{
+    float: right;
+    font-size: 18px;
+}
+
+.CommentBody{
+    clear: both;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.Comment{
+    width: 550px;
+    margin: auto;
+    margin: 15px;
+    text-align: justify;
+}

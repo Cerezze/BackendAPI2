@@ -1,0 +1,121 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HeaderList a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.HeaderList a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 65px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.HeaderList li{
+    display: inline-block;
+    margin-top: 23px;
+    width: 220px;
+    color: white;
+    margin-left: -25px;
+    font-size: 17px;
+}
+
+.HeaderList li:hover{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.ReviewBody{
+    margin: auto;
+    width: 650px;
+}
+
+.ReviewBodyTitle{
+    margin-bottom: 50px;
+}
+
+.ReviewBody a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.ReviewBody a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.ReviewCard{
+    width: 630px;
+    margin: auto;
+    margin-top: -1px;
+}
+
+.ReviewCard:hover{
+    border: 1px solid black;
+    margin-top: -1px;
+    background-color: lightgray;
+}
+
+.ReviewCardHeaderInfo{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.ReviewCardHeaderInfo .Name{
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ReviewCardHeaderInfo .Time{
+    float: right;
+    margin-right: 40px;
+}
+
+.ReviewCardHeaderInfo .Date{
+    float: right;
+}
+
+.ReviewCardSummary{
+    clear: both;
+    border-top: 2px solid black;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.ReviewCardFooterInfo{
+    border-bottom: 1px solid black;
+    height: 20px;
+}
+
+.ReviewCardFooterInfo .CommentNum{
+    float: left;
+    font-size: 17px;
+}
+
+.ReviewCardFooterInfo .Poster{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}

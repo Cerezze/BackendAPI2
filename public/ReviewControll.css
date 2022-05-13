@@ -1,0 +1,90 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HeaderList a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.HeaderList a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 65px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.HeaderList li{
+    display: inline-block;
+    margin-top: 23px;
+    width: 220px;
+    color: white;
+    margin-left: -25px;
+    font-size: 17px;
+}
+
+.HeaderList li:hover{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.ReviewControllBodyTitle{
+    margin-bottom: 50px;
+}
+
+.ReviewControllCard{
+    width: 650px;
+    margin: auto;
+}
+
+.ReviewControllList li{
+    list-style: none;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    width: 230px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.ReviewControllList li h4{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+.ReviewControllList li p{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.ReviewControllList li button{
+    margin: 5px;
+    width: 75px;
+    margin-top: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.ReviewControllList li button:hover{
+    background-color: lightgray;
+    color: black;
+    border: none;
+}

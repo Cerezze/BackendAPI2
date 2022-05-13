@@ -1,0 +1,199 @@
+html, body{
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HeaderList a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.HeaderList a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.MainDiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 65px;
+    background-color: black;
+}
+.HeaderList{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.HeaderList li{
+    display: inline-block;
+    margin-top: 23px;
+    width: 220px;
+    color: white;
+    margin-left: -25px;
+    font-size: 17px;
+}
+
+.HeaderList li:hover{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.CreateReviewBody{
+    margin: auto;
+    width: 650px;
+}
+
+.CreateReviewBodyTitle{
+    margin-bottom: 50px;
+}
+
+.CreateReviewPage{
+    margin-left: -25px;
+}
+
+.CreateElementList{
+    list-style: none;
+}
+
+.firstLi{
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.CreateElementList li textarea{
+    display: block;
+    width: 610px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.ElementListInc{
+    background-color: black;
+    color: white;
+}
+.ElementListDec{
+    background-color: black;
+    color: white;
+    margin: -3px;
+    width: 23px;
+}
+
+.ElementListInc:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.ElementListDec:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.SubCreateElementList{
+    list-style: none;
+}
+
+.SubElementListInc{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.SubElementListDec{
+    background-color: black;
+    color: white;
+    margin: -3px;
+    width: 23px;
+}
+
+.SubElementListInc:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.SubElementListDec:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.ProsList li{
+    list-style:disc;
+}
+
+.ProsListInc{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ProsListDec{
+    background-color: black;
+    color: white;
+    margin: -3px;
+    width: 23px;
+}
+
+.ProsListInc:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.ProsListDec:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.ConsList li{
+    list-style: circle;
+}
+
+.ConsListInc{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ConsListDec{
+    background-color: black;
+    color: white;
+    margin: -3px;
+    width: 23px;
+}
+
+.ConsListInc:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.ConsListDec:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.OverallScore p{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.OverallPanel p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.OverallPanel textarea{
+    display: block;
+    width: 610px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 20px;
+}
